@@ -16,10 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geist.className} antialiased flex flex-col min-h-screen`}
+        className={`${geist.className} antialiased`}
       >
-        <HomeNavbar />
-        <main className="lg:px-20">
+        <main>
           {children}
         </main>
       </body>
