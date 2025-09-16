@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { geist } from "./fonts";
 import "./globals.css";
-import HomeNavbar from "@/components/home/home-navbar";
 
 export const metadata: Metadata = {
   title: "ChatUp",
@@ -16,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geist.className} antialiased`}
+        className={`${geist.className} antialiased dark`}
       >
         <main>
           {children}
